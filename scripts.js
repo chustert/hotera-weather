@@ -1,4 +1,4 @@
-const api = 'e342256da9825740d4271c494cb88603'; // openweathermap API key
+const api = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxx'; // openweathermap API key
 
 const iconImg = document.getElementById('weather-icon');
 const loc = document.querySelector('#location');

@@ -8,6 +8,10 @@ body {
   font-family: 'Lora', serif;
 }
 
+p {
+  font-size: 1rem;
+}
+
 .container {
   height: 100vh;
   width: 100vw;
@@ -27,8 +31,13 @@ body {
 .weather {
   display: flex; 
   align-items: center;
-  margin: 15px 0;
+  margin-top: 5px;
+  margin-bottom: 15px;
   font-size: 1.5rem;
+}
+
+.date {
+  margin-bottom:  15px;
 }
 
 #location {

@@ -19,8 +19,8 @@ window.addEventListener('load', () => {
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition((position) => {
       // Storing Longitude and Latitude in variables
-      long = '174.8858'; //position.coords.longitude ----- Raglan: 174.8992
-      lat =  '-37.7968'; //position.coords.latitude ----- Raglan: -37.830656
+      long = position.coords.longitude; //position.coords.longitude ----- Raglan: 174.8992
+      lat =  position.coords.latitude; //position.coords.latitude ----- Raglan: -37.830656
       const base = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=${api}&units=metric`;
       const forecast_base = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${long}&exclude=minutely,hourly,alerts&appid=${api}&units=metric`
 

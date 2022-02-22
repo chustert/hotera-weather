@@ -1,5 +1,4 @@
 const api = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'; // openweathermap API key
-const api = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxx'; // openweathermap API key
 
 const iconImg = document.getElementById('weather-icon');
 const loc = document.querySelector('#location');

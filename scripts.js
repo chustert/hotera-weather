@@ -1,3 +1,4 @@
+const api = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'; // openweathermap API key
 const api = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxx'; // openweathermap API key
 
 const iconImg = document.getElementById('weather-icon');
@@ -39,7 +40,7 @@ window.addEventListener('load', () => {
 	        const { speed } = data.wind;
 	        const { deg } = data.wind;
 
-	        const iconUrl = `http://openweathermap.org/img/wn/${icon}@2x.png`;
+	        const iconUrl = `https://openweathermap.org/img/wn/${icon}@2x.png`;
 	        const fahrenheit = (temp * 9) / 5 + 32;
 
 	        // Converting Epoch(Unix) time to GMT
